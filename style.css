@@ -1,0 +1,277 @@
+
+a { 
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    text-decoration: none;
+    transition: 0.5s;
+  
+}
+a:hover{
+    color: white;
+}
+body {
+    background-color: #22212C;
+}
+body *
+{
+    font-family: "Merriweather Sans", sans-serif;
+    color: #837E9F;
+    
+}
+#teste
+{
+    margin-top: 20px;
+    display: flex;
+}
+
+#inicio
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#Right
+{
+    margin-left: 50px;
+}
+
+#box
+{
+    display: flex;
+    gap: 30px;
+}
+#p1
+{
+    width: 461px;
+    height: 186px;
+    background-color: #302F3D;
+    border-radius:5%;
+    box-shadow: 4px 4px 4px #0d0c14;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-top: 30px;
+}
+
+#p1:hover
+{
+    background-color: #302f3d77;
+}
+
+#p1 h3
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    color:#908bad;
+}
+#likes
+{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+}
+#likes p
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#p1 img
+{
+    width: 30px;
+}
+
+#Profile
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    height: 292px;
+    background-color: #302F3D;
+    margin-left: 40px;
+    border-radius: 5%;
+    box-shadow: 4px 4px 4px #0d0c14;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    text-decoration: none;
+    transition: 0.5s;
+}
+#Profile:hover
+{
+    background-color: #302f3d77;
+}
+
+#foto {
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    width: 128px;
+    height: 128px;
+    margin-top: 32px;
+    box-shadow: 3px 3px 3px#0d0c14;
+   }
+   
+   #foto img {
+    position: absolute;
+    width: 100%
+   }
+
+#textoIN {
+    text-align: center;
+}
+
+#Links
+{
+    width: 348px;
+    height: 348px;
+    background-color: #302F3D;
+    margin-left: 40px;
+    margin-top: 30px;
+    border-radius: 5%;
+    box-shadow: 4px 4px 4px #0d0c14;
+}
+#tec
+{
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    height: 208px;
+    background-color: #302F3D;
+    border-radius: 5%;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 4px 4px 4px #0d0c14;
+}
+#tec h1{
+    padding-left: 20px;
+
+}
+#tec td
+{
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+    padding: 7px;
+    font-weight: 500;
+    color: #000000;
+
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#tec td:hover
+{
+    color: white;
+    background-color: #22212C;
+}
+#Links td:hover
+{
+    color: white;
+}
+#Links table{
+    padding: 30px;
+}
+#Links td{
+    padding: 6px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#Exp
+{
+    width: 348px;
+    height: 415px;
+    background-color: #302F3D;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    padding-top:1px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px #0d0c14;
+    border-radius: 5%
+}
+
+#Exp h1 
+{
+    padding-left: 20px;
+}
+#Exp ul
+{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    margin-right: 25px;
+    gap: 1px;
+}
+#Exp li h3
+{
+    color:#928db3;
+}
+#Exp li p
+{
+    color: #bab9d3;
+}
+
+#projetos
+{
+    box-shadow: 3px 3px 3px #0d0c14;
+    width: 990px;
+    height: 86px;
+    border-radius: 5%;
+    padding-left: 20px;
+    background-color: #302F3D;
+    display: flex;
+}
+#projetos a
+{
+    margin-left: 660px;
+    margin-top:30px;
+}
+
+#posts
+{
+    box-shadow: 3px 3px 3px #0d0c14;
+    width: 990px;
+    height: 86px;
+    border-radius: 5%;
+    padding-left: 20px;
+    background-color: #302F3D;
+    display: flex;
+    margin-top: 30px;
+}
+#posts a
+{
+    margin-left: 700px;
+    margin-top:30px;
+}
+
+#recentP
+{
+    width: 990px;
+    height: 201px;
+    background-color:#302F3D;
+    border-radius: 5%;
+    box-shadow: 3px 3px 3px #0d0c14;
+    display: flex;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+#recentP:hover
+{
+    background-color: #302f3d77;
+}
+
+#textos
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
